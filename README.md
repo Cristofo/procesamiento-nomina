@@ -13,7 +13,7 @@ Una aplicación Java para procesar, validar y analizar archivos CSV de empleados
 
 ## 📋 Validaciones Implementadas
 
-1. **🆔 RUT único**: Sin duplicados y formato válido (12345678-9)
+1. **🆔 RUT único**: Sin duplicados
 2. **💰 Salario base mínimo**: ≥ $400.000
 3. **🎁 Bonos**: Máximo 50% del salario base
 4. **➖ Descuentos**: Máximo 100% del salario base
