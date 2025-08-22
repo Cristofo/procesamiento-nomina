@@ -27,12 +27,6 @@ public class EstadisticaCalculator {
                     .average()
                     .orElse(0.0);
             System.out.println("Antigüedad promedio: " + String.format("%.1f", promedioAntiguedad) + " años");
-
-            // Total salarios
-            double totalSalarios = validos.stream()
-                    .mapToDouble(Employee::calcularSalarioFinal)
-                    .sum();
-            System.out.println("Total salarios finales: $" + String.format("%,.0f", totalSalarios));
         }
     }
 }

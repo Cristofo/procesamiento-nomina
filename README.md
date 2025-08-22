@@ -38,19 +38,19 @@ Una aplicación Java para procesar, validar y analizar archivos CSV de empleados
 
 ```bash
 git clone https://github.com/Cristofo/procesamiento-nomina.git
-cd employee-csv-processor
+cd procesamiento-nomina
 ```
 
 ### 2. Compilar el código Java
 
 ```utilizando powerSHell de windows, estando en la raiz del proyecto C://.../procesamiento-nomina
 
-javac -d build/classes src/main/java/org/exercise/record/*.java src/main/java/org/exercise/util/*.java src/main/java/org/exercise/ProcesadorNomina.java```
+javac -d build/classes src/main/java/org/exercise/record/*.java src/main/java/org/exercise/util/*.java src/main/java/org/exercise/ProcesadorNomina.java
 ```
 
 ### 3. Preparar archivo de entrada
 
-Crear un archivo `empleados.csv` con el formato (usando coma como delimitador):
+Crear un archivo `empleados.csv` con el formato (usando coma como delimitador), este archivo debe agregarse en la ruta resources/input:
 
 ```csv
 Nombre,Apellido,RUT,Cargo,SalarioBase,Bonos,Descuentos,FechaIngreso
@@ -60,19 +60,12 @@ Maria,González,98765432-1,Desarrollador,600000,80000,40000,2020-05-20
 
 ### 4. Ejecutar la aplicación
 
+Al ejecutar el comando los archivos resultantes se encontrarán en la ruta resources/output
+
 ```bash
 java -cp build/classes org.exercise.ProcesadorNomina
 ```
 
-### 5. Configuración personalizada
-
-Modificar las rutas de archivo directamente en el código si es necesario:
-
-```java
-String inputFile = "empleados.csv";
-String validOutputFile = "empleados_validos.csv";
-String invalidOutputFile = "empleados_invalidos.csv";
-```
 
 ## 📁 Estructura del Proyecto
 
@@ -129,10 +122,10 @@ El archivo debe tener las siguientes columnas (delimitador `,`):
 ### 3. Reporte por consola
 ```
 === ESTADÍSTICAS ===
-Total empleados válidos: 5
-Total empleados inválidos: 2
-Promedio salario final: $750,000
-Antigüedad promedio: 4.2 años
+Total empleados válidos: 310880
+Total empleados inválidos: 689120
+Promedio salario final: $395,029
+Antigüedad promedio: 1.8 años
 ```
 
 ## 🎨 Personalización
