@@ -1,0 +1,4 @@
+Nombre;Apellido;RUT;Cargo;SalarioBase;Bonos;Descuentos;FechaIngreso;MotivoError
+María;Muñoz;93922401-2;QA;497704;329207;178575;2025-08-11;Empleado 1 (María Muñoz): Bonos > 50% salario base
+Sofía;Pérez;66267670-9;DevOps;580553;394978;265501;2023-10-12;Empleado 3 (Sofía Pérez): Bonos > 50% salario base
+Pedro;Díaz;45551239-4;DevOps;323201;39512;63500;2024-10-06;Empleado 4 (Pedro Díaz): Salario base inferior a $400000.0

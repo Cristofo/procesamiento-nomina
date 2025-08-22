@@ -1,0 +1,3 @@
+Nombre;Apellido;RUT;Cargo;SalarioBase;Bonos;Descuentos;FechaIngreso;Antiguedad;BonificacionAntiguedad;SalarioFinal
+Sofía;Rojas;81440572-3;Líder Técnico;444110;102613;374146;2025-07-17;0;0;172577
+Pedro;Pérez;93922401-2;DevOps;548768;234418;99791;2021-10-19;3;27438;710833
